@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport"  content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Ann-Marie Grape</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/scss/bootstrap.scss">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
@@ -35,12 +35,16 @@
       </div>
     </nav>
 
-    <div class="container rounded-lg bg-light border border-secondary mt-4" id="About">
+    <div class="container bg-light rounded-sm mt-4" id="img">
+      <img src="images/removed_books.png" alt="stack of books">
+    </div>
+
+    <div class="container rounded-lg mt-4" id="About">
       <h5>a little about me</h5>
       <p class="text-break">I got my degree in criminology, and read a lot of sci-fi and fantasy novels. I started learning to code a few years ago, when I didn't love working at CPS and didn't know what to do next. I've been having fun learning via Code Academy, The Odin Project, and Treehouse, along with creating a few personal projects. </p>
     </div>
 
-    <div class="container bg-light border border-secondary rounded-lg mt-4">
+    <div class="container rounded-lg mt-4">
       <div class="row">
         <div class="col-sm" id="Projects">
             <dl class="rounded-lg text-left">
@@ -60,33 +64,32 @@
         </div>
       </div>
 
-    <div class="container bg-light rounded-lg border border-secondary mt-4">
+    <div class="container rounded-lg mt-4">
       <div class="row">
-          <div class="col-sm" id="Learnings">
-              <ul class="text-left">
+          <div class="col-sm text-left" id="Learnings">
                 <h5 class="text-center">Learnings</h5>
-                <li>Treehouse</li>
-                <ul>
-                  <li>SQL</li>
-                  <li>Javascript</li>
-                  <li>Ruby</li>
-                  <li>Ruby on Rails</li>
-                </ul>
-                <li>The Odin Project</li>
-                <ul>
-                  <li><a href="https://www.theodinproject.com/courses/foundations" target="_blank" class="text-dark">Foundations</a></li>
-                  <li><a href="https://www.theodinproject.com/courses/ruby-programming" target="_blank" class="text-dark">Ruby Programming</a></li>
-                  <li><a href="https://www.theodinproject.com/courses/ruby-on-rails/lessons/active-record-basics-ruby-on-rails" target="_blank" class="text-dark">Active Record Basics</a></li>
-                  <li><a href="https://www.theodinproject.com/paths/full-stack-javascript" target="_blank" class="text-dark">Full Stack JavaScript</a></li>
-                </ul>
+                <dl class="mt-4 col">Treehouse</dl>
+                <dd>
+                  <dt class="col-sm-3">SQL</dt>
+                  <dt class="col-sm-3">Javascript</dt>
+                  <dt class="col-sm-3">Ruby</dt>
+                  <dt class="col-sm-3">Ruby on Rails</dt>
+                </dd>
+                <dl class="mt-4 col text-dark">The Odin Project</dl>
+                <dd>
+                  <dt class="col-sm-3"><a href="https://www.theodinproject.com/courses/foundations" target="_blank" class="text-dark">Foundations</a></dt>
+                  <dt class="col-sm-3"><a href="https://www.theodinproject.com/courses/ruby-programming" target="_blank" class="text-dark">Ruby Programming</a></dt>
+                  <dt class="col-sm-3"><a href="https://www.theodinproject.com/courses/ruby-on-rails/lessons/active-record-basics-ruby-on-rails" target="_blank" class="text-dark">Active Record Basics</a></dt>
+                  <dt class="col-sm-3"><a href="https://www.theodinproject.com/paths/full-stack-javascript" target="_blank" class="text-dark">Full Stack JavaScript</a></dt>
+                </dl>
             </div>
           </div>
         </div>
 
-    <div class="container">
+    <div class="container rounded-lg">
     </div>
     <h1></h1>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="js/bootstrap.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
   </body>
 </html>

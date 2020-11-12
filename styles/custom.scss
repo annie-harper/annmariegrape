@@ -3,4 +3,36 @@ $theme-colors: (
   "danger": #cc6699,
 );
 
+#img {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rounded-sm {
+  width: 300px;
+  height: auto;
+}
+
+.rounded-lg {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#Projects {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+}
+
+#About {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+}
+
+#Learnings {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
