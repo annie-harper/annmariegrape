@@ -1,8 +1,7 @@
-.img {
-  max-height: 100px;
+#logo {
+  max-height: 20rem;
   display: block;
-  margin-left: auto;
-  margin-right: auto; }
+  margin: auto; }
 
 .rounded-sm {
   width: 300px;
