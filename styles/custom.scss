@@ -3,9 +3,8 @@ $theme-colors: (
   "danger": #cc6699,
 );
 
-#img {
-  width: 50%;
-  height: 50%;
+.img {
+  max-height: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
