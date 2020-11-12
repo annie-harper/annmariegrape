@@ -5,22 +5,25 @@
 
 .rounded-sm {
   width: 300px;
-  height: auto; }
-
-.rounded-lg {
-  padding-top: 2rem;
-  padding-bottom: 2rem; }
+  height: auto; 
+}
 
 #Projects {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.09); }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.09); 
+  padding-top: 2rem; 
+}
 
 #About {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.09); }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.09); 
+  padding-top: 2rem; 
+  padding-bottom: 2rem;
+}
 
 #Learnings {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
   padding-top: 2rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem; 
+}
 
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
