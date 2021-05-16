@@ -3,6 +3,10 @@
   display: block;
   margin: auto; }
 
+#background {
+  margin-left: 60px;
+}
+
 .rounded-sm {
   width: 300px;
   height: auto; 
@@ -23,6 +27,10 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
   padding-top: 2rem;
   padding-bottom: 2rem; 
+}
+
+#odin {
+  padding-top: 2rem;
 }
 
 /*!
