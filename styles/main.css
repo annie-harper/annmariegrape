@@ -7,6 +7,10 @@
   margin-left: 60px;
 }
 
+#x {
+  margin-top: 10px;
+}
+
 .rounded-sm {
   width: 300px;
   height: auto; 
@@ -244,7 +248,8 @@ input {
 
 button,
 select {
-  text-transform: none; }
+  text-transform: none; 
+  background-color: #ac3973;}
 
 [role="button"] {
   cursor: pointer; }
